@@ -55284,7 +55284,7 @@ il(a,b,c,d){var s=null,r=A.fs(c,s,s,s),q=A.v(b,s,s,s,A.em(s,s,s,s,s,s,s,s,s,s,s,
 return A.dO(s,s,s,!0,A.az(B.d.aN(25.5),B.m.B()>>>16&255,B.m.B()>>>8&255,B.m.B()&255),!0,s,r,s,d,s,q,s,s,s)}}
 A.aY3.prototype={
 $2(a6,a7){var s,r,q,p,o=null,n="Add New Teacher",m="Assign Subject",l="Add New Student",k="Academic Calendar",j="Manage Events",i="School Circulars",h="Add New Driver",g="Bus Assign",f="Manage Fees",e="Students by Bus",d="Timetable",c="View Suggestions",b="Add Exam",a="Attendance Sheet",a0="Absentees",a1="School Details",a2=a7.b>800,a3=a2?o:A.zz(o,B.t5,o,B.fw,o,!1,this.a.a.e,o),a4=this.a,a5=t.p
-if(a2){a2=A.v("Admin Panel",o,o,o,A.em(o,o,o,o,o,o,o,o,o,o,o,24,o,o,B.ao,o,o,!0,o,o,o,o,o,o,o,o),o,o,o)
+if(a2){a2=A.v("School Admin Panel",o,o,o,A.em(o,o,o,o,o,o,o,o,o,o,o,24,o,o,B.ao,o,o,!0,o,o,o,o,o,o,o,o),o,o,o)
 s=A.cB(A.b8g(A.b([a4.il(a6,n,B.iX,new A.aXw(a4,a6)),a4.il(a6,m,B.iX,new A.aXx(a4,a6)),a4.il(a6,l,B.rH,new A.aXy(a4,a6)),a4.il(a6,k,B.lX,new A.aXJ(a4,a6)),a4.il(a6,j,B.rM,new A.aXU(a4,a6)),a4.il(a6,i,B.rB,new A.aXY(a4,a6)),a4.il(a6,h,B.rK,new A.aXZ(a4,a6)),a4.il(a6,g,B.rJ,new A.aY_(a4,a6)),a4.il(a6,f,B.rE,new A.aY0(a4,a6)),a4.il(a6,e,B.fW,new A.aY1(a4,a6)),a4.il(a6,"Courses",B.fW,new A.aY2(a4,a6)),a4.il(a6,d,B.m_,new A.aXz(a4,a6)),a4.il(a6,c,B.rO,new A.aXA(a4,a6)),a4.il(a6,b,B.eQ,new A.aXB(a4,a6)),a4.il(a6,a,B.fU,new A.aXC(a4,a6)),a4.il(a6,a0,B.rS,new A.aXD(a4,a6))],a5),o,o,!1),1)
 r=A.fs(B.rI,o,o,o)
 q=A.v("Change Theme",o,o,o,A.em(o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o,o)
