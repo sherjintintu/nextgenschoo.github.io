@@ -1,6 +1,6 @@
 {
-    "name": "educationschooladmin",
-    "short_name": "educationschooladmin",
+    "name": "educationstudent",
+    "short_name": "educationstudent",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
