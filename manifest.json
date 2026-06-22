@@ -1,11 +1,11 @@
 {
-    "name": "The Pearl Education",
-    "short_name": "Pearl",
+    "name": "educationschooladmin",
+    "short_name": "educationschooladmin",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "School Management System for Attendance, Student Records, Communication and Academic Administration.",
+    "description": "A new Flutter project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
