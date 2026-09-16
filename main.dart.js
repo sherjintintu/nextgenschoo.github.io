@@ -17260,6 +17260,7 @@ _.e=b
 _.f=""
 _.r=null
 _.w=!1
+_.y=_.x=$
 _.c=_.a=null},
 cA5:function cA5(a){this.a=a},
 cA4:function cA4(a){this.a=a},
@@ -117493,8 +117494,15 @@ s=A.ai(new A.a6(r))
 return new A.aF1(s,new A.au(B.aa,$.ar()))}}
 A.aF1.prototype={
 gaAd(){return this.d.q("schools").t(this.a.c).q("students")},
-ab(){this.ah()
-this.e.ar(0,new A.cA5(this))},
+ab(){var s,r=this
+r.ah()
+s=r.d.q("schools").t(r.a.c).q("busRoutes").b4()
+r.x!==$&&A.bT()
+r.x=s
+s=r.gaAd().b4()
+r.y!==$&&A.bT()
+r.y=s
+r.e.ar(0,new A.cA5(r))},
 n(){var s=this.e
 s.V$=$.ar()
 s.U$=0
@@ -117527,8 +117535,9 @@ if(r.length!==0)return r
 s=this.eE(a,"phoneNumber")
 if(s.length!==0)return s
 return this.eE(a,"phone")},
-I(a){var s=null
-return A.bp(A.bF(s,s,s,!0,!0,s,s,1,!1,s,s,!1,s,!1,s,s,s,s,!0,s,s,s,s,s,B.h3G,s,s,s,1,s,!0),s,A.bL(new A.cA3(this),s,this.d.q("schools").t(this.a.c).q("busRoutes").b4(),t.C),s,s,s,s)},
+I(a){var s=null,r=A.bF(s,s,s,!0,!0,s,s,1,!1,s,s,!1,s,!1,s,s,s,s,!0,s,s,s,s,s,B.h3G,s,s,s,1,s,!0),q=this.x
+q===$&&A.c()
+return A.bp(r,s,A.bL(new A.cA3(this),s,q,t.C),s,s,s,s)},
 b14(a,b){var s,r,q,p,o,n,m=this,l=null,k=m.r==null?l:A.d73(new A.aD(a,new A.czA(m),A.Q(a).i("aD<1>"))),j=A.Q(b).i("aD<1>"),i=A.H(new A.aD(b,new A.czB(m),j),j.i("F.E"))
 j=m.b33(a,b)
 s=m.b1L(a,b)
@@ -117733,15 +117742,17 @@ A.cA0.prototype={
 $1(a){return B.f.F(a).length!==0},
 $S:20}
 A.cA3.prototype={
-$2(a,b){var s,r=b.c
-if(r!=null)return this.a.apb("Unable to load routes.\n"+A.f(r))
+$2(a,b){var s,r,q=b.c
+if(q!=null)return this.a.apb("Unable to load routes.\n"+A.f(q))
 if(b.a===B.aE)return B.am
-r=b.b
-s=r==null?null:r.gM()
+q=b.b
+s=q==null?null:q.gM()
 if(s==null)s=A.b([],t.L)
-r=this.a
-B.e.bU(s,new A.cA1(r))
-return A.bL(new A.cA2(r,s),null,r.gaAd().b4(),t.C)},
+q=this.a
+B.e.bU(s,new A.cA1(q))
+r=q.y
+r===$&&A.c()
+return A.bL(new A.cA2(q,s),null,r,t.C)},
 $S:40}
 A.cA1.prototype={
 $2(a,b){var s,r="routeName",q=this.a,p=a.K(0)
